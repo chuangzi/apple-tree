@@ -1,0 +1,170 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px/*字号/行高*/ "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+.w{
+    width: 960px;/*固定宽*/
+    margin: 0 auto;/*居中*/
+}
+body{
+    background:url(../images/bg.png);
+}
+/*
+.logo-img{
+    background:url(../images/logo.png) no-repeat;
+    height:104px;
+}*/
+.logo{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+/*导航*/
+.nav .top-border,
+.nav .bottom-border{
+    height: 8px;
+    background-color: #822619;
+}
+.nav .nav-list-wrap{
+    margin:3px 0;
+    height: 46px;
+    background: #1B6568 url(../images/diamond.png) repeat-x center;
+}
+.nav .nav-list-wrap li{
+    float: left;
+    /*margin: 0 22px;*/
+    line-height: 46px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.nav .nav-list-wrap li a{
+    color: #94c4c7;
+    text-decoration: none;
+}
+.nav .nav-list-wrap .curr a{
+    color: #e0e2d1;
+}
+.nav .nav-list-wrap li a:hover{
+    color:#ebe9d7;
+}
+.nav .nav-list-wrap .waiter{
+    position: absolute;/*绝对定位*/
+    top:-148px;
+    right: 0;
+
+}
+.nav .nav-list-w{
+    position: relative;/*相对定位*/
+}
+/*底部*/
+.footer{
+    margin-top: 30px;
+}
+.footer .top-border{
+    height:8px;
+    background-color: #822619;
+}
+.footer .footer-content{
+    /*height:155px;*/
+    background-color: #1b6568;
+    margin-top: 3px;
+}
+/*底部中间部分*/
+.footer .footer-content .left{
+    width: 190px;
+    float: left;
+    margin-right: 100px;
+}
+.footer .footer-content .middle{
+    float: left;/*fll快捷键*/
+    width: 304px;
+    margin-right: 100px;
+}
+.footer .footer-content .right{
+    float: left;
+    width: 250px;
+}
+.footer .hotline{
+    color: #ebe9d7;
+    font-size:16px;
+}
+.footer .hotline-number{
+    color: #ebe9d7;
+    font-size: 18px;
+    margin-top: 4px;
+}
+.footer li{
+    float: left;
+    margin-right: 6px;
+    margin-top: 18px;
+}
+/*.footer li .last{
+    margin-right: 10px;
+}*/
+.footer .middle h1{
+    color: #ecead9;
+    font-size: 25px;
+    text-align: center;
+}
+.footer .middle li{
+    color: #ebe9d7;
+}
+.footer .middle li a{
+    color: #ebe9d7;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.footer .middle p{
+    color: #ebe9d7;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer .right p{
+    font-size: 14px;
+    color: #ebe9d7;
+}
+
+.footer .text{
+    width: 210px;
+    height: 26px;
+    border:4px solid #ac6e66;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    text-align: center;
+    outline: none;
+}
+.footer .subscribe{
+    width: 214px;
+    height: 36px;
+    border:4px solid #ebe9d7;
+    background-color: #822619;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.footer .subscribe a{
+    font-size: 20px;
+    color:#d2c2b2;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    margin-left: 33px;
+}
+.footer .subscribe:hover{
+    background: #a83121;
+}
+.nav .nav-list-wrap li .home,
+.nav .nav-list-wrap li .about,
+.nav .nav-list-wrap li .menu,
+.nav .nav-list-wrap li .contact,
+.nav .nav-list-wrap li .blog{
+    color: #e1e2d1;
+}
+
+

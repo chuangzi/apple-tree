@@ -1,0 +1,156 @@
+.w{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.container{
+    background: url(../images/apple.jpg) no-repeat top center;
+    height: 720px;
+}
+.apples{
+    width: 430px;
+    height: 310px;
+    /*background: #f00;*/
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    /*opacity:0.5;!*透明度*!*/
+}
+.apples .public{
+    background:url(../images/little-apple.png);
+    width: 37px;
+    height: 48px;
+    position: absolute;
+}
+.apples .apple1{
+    top: 40px;
+    left: 90px;
+}
+.apples .apple2{
+    top: 0;
+    left: 175px;
+}
+.apples .apple3{
+    top: 35px;
+    left: 260px;
+}
+.apples .apple4{
+    top: 70px;
+    left: 350px;
+}
+.apples .apple5{
+    top: 160px;
+    left: 385px;
+}
+.apples .apple6{
+    top: 120px;
+    left: 300px;
+}
+.apples .apple7{
+    top: 220px;
+    left: 310px;
+}
+.apples .apple8{
+    top: 220px;
+    left: 180px;
+}
+.apples .apple9{
+    top: 195px;
+    left: 50px;
+}
+.apples .apple10{
+    top: 120px;
+    left: 100px;
+}
+.apples .apple11{
+    top: 115px;
+    left: 25px;
+}
+.books{
+    width: 430px;
+    height: 258px;
+    position: absolute;
+    top: 292px;
+    right: 40px;
+}
+.books ul{
+    font-size: 0;
+}
+.books ul li{
+    /*float: left;*//*可以使用display:inline-block;代替*/
+    width: 102px;
+    height: 120px;
+    margin: 2px 2px;
+    text-align: center;
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 12px;
+    /*兼容IE6 7方法*/
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+
+}
+.books ul li img{
+    width: 75px;
+    height: 100px;
+}
+.books ul li a{
+    display: block;
+    text-decoration: none;
+ }
+.books-p1{
+    position: absolute;
+    color: #F2F7D7;
+    font-size: 20px;
+    width: 90px;
+    height: 34px;
+    top:-40px;
+    left: 30px;
+}
+.votes{
+    width: 564px;
+    height: 130px;
+    position: absolute;
+    /*background: #11FFB8;*/
+    top: 590px;
+    right: 14px;
+}
+.votes ul li{
+    float: left;
+    width: 76px;
+    height: 122px;
+    margin:0 18px;
+
+}
+.votes ul li .progress{
+    width: 15px;
+    height: 76px;
+    background: #d4dbb5;
+    margin:0 auto;
+    position: relative;
+}
+.votes ul li .progress .bar{
+    width: 100%;
+    background: #ff7f44;
+    position: absolute;
+    bottom: 0;
+}
+.votes ul li .btn{
+    display: block;
+    margin-top:6px;
+    width: 71px;
+    height: 24px;
+    background: url("../images/png.png");
+    font-size: 16px;
+    color: #F8FFA5;
+    text-align: center;
+}
+.votes ul li .txt{
+    margin-top: 0;
+    font-size: 12px;
+    color: #51BDB6;
+}
+.votes ul li .txt em{
+    color: #fc6368;
+}
